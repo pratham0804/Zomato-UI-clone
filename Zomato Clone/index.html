@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Zomato</title>
+  <link rel="stylesheet" href="styles/homepage/header.css">
+
+  <link rel="stylesheet" href="styles/homepage/middle.css">
+
+  <link rel="stylesheet" href="styles/homepage/center.css">
+
+  <link rel="stylesheet" href="styles/homepage/lowermiddle.css">
+
+  <link rel="stylesheet" href="styles/homepage/footer.css">
+</head>
+<body>
+  <div class="entire-page">
+    <div class="header">
+        <img src="images/image1.avif" class="zomato-image">
+        <div class="middle-header-part">
+          <p class="title">
+            <img src="images/zomato.avif" class="zomato-logo">
+          </p>
+          <p class="tagline">Discover the best food & drinks in Nagpur</p>
+
+          <div class="location-search-bar">
+            
+            
+              <img src="images/locationicon.png" class="location-icon-image">
+           
+              <form>
+               
+                <select id="location-options" class="location-select" name="location">
+
+                </select>
+                 
+            </form>
+            
+             <img src="images/search.png" class="search-icon-image">
+            
+
+           <input type="text" class="Search-bar" placeholder="Search for restaurant, cuisine or a dish">
+            
+            
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="middle-page">
+      
+        <div class="three-containers" id="container-1">
+          <img src="images/middleimage-1.avif" alt="" class="first-image">
+
+          <p class="title-text">Order Online</p>
+          <p class="description">Stay home and order to your door</p>
+       </div>
+     
+       
+
+       <div class="three-containers">
+
+        <img src="images/middleimage-2.avif" alt="" class="first-image">
+
+        <p class="title-text">Dining</p>
+        <p class="description">Stay home and order to your door</p>
+
+       </div>
+
+       <div class="three-containers">
+          <img src="images/middleimage-3.avif"  class="first-image">
+
+          <p class="title-text">Nightlife and Clubs</p>
+          <p class="description">Explore the city's top nightlife.</p>
+
+       </div>
+    </div>
+
+    <div class="middle-page-part2">
+         <h1 class="collections">Collections</h1>
+
+         <p class="collection-desctription">
+          Explore curated lists of top restaurants, cafes, pubs, and bars in Nagpur, based on trends
+         </p>
+
+         <div class="four-containers">
+          <div class="containers-1">
+            <div class="container-1-image">
+              <img src="images/restaurant2.webp" class="collection-images">
+            </div>
+           
+            <p class="collection-title">11 Great Cafes</p>
+            <p class="collection-subtitle">9 Places <span class="side-arrow">&#9205</span></p>
+           </div>
+          
+           <div class="containers-1">
+            <div class="container-1-image">
+              <img src="images/restaurant3.webp" class="collection-images">
+            </div>
+            <p class="collection-title">10 Best Pubs</p>
+            <p class="collection-subtitle">10 Places <span class="side-arrow">&#9205</span></p>
+           </div>
+           <div class="containers-1">
+            <div class="container-1-image">
+              <img src="images/restaurant4.webp" class="collection-images">
+            </div>
+            <p class="collection-title">6 Serene Roof</p>
+            <p class="collection-subtitle">7 Places <span class="side-arrow">&#9205</span></p>
+           </div>
+           <div class="containers-1">
+            <div class="container-1-image">
+              <img src="images/restaurant5.webp" class="collection-images">
+            </div>
+            <p class="collection-title">7 Pan-Asian</p>
+            <p class="collection-subtitle">7 Places <span class="side-arrow">&#9205</span></p>
+           </div>
+           
+         </div>
+         
+    </div>
+
+
+
+    <div class="lower-middle-section">
+      <h1 class="lms-title"> </h1>
+      <div class="grid-localities">
+        <!-- html is generated using js , nested forEach was used.-->
+      </div>
+      
+    </div>
+
+
+
+    <div class="lower-part">
+      <div class="main-div">
+        <div class="mobile-image-div">
+          <img src="images/mobileimages.avif" class="mobile-image">
+        </div>
+
+        <div class="email-fetching-div">
+          <h1 class="Zomato-app">Get the Zomato app</h1>
+
+          <p class="zomato-para">We will send you a link, open it on your phone to download the app</p>
+
+          <!--no need to wrap div around radio buttons-->
+            <input type="radio" name="name1" id="name1" >
+            <label for="name1" class="label-email">Email</label
+              >
+
+            <input type="radio" name="name1" id="name1" >
+            <label for="name1" class="label-email">Phone</label>
+            
+         
+
+          <div class="email-input-div">
+
+            <!--Here no need of wrapping div around input tag -->
+            <input type="text" class="email-input" placeholder="Email">
+            
+            <button class="Share">Share App Link</button>
+             
+            
+          </div>
+
+          <p class="download">Download app from</p>
+
+          <div class="store-btns">
+            <img src="images/playstore.webp" class="playstore-btn">
+
+            <img src="images/appstore.webp" class="appstore-btn" >
+          </div>
+            
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="footer">
+      <div class="footer-top">
+        
+          <img src="images/b40b97e677bc7b2ca77c58c61db266fe1603954218.avif" class="zomato-black-logo">
+        
+
+
+        <div class="forms">
+          <form action="#">
+            <input list="country-name" class="country-name-input-tag" placeholder="India">
+            <datalist id="country-name">
+              <option value="India"></option>
+              <option value="USA"></option>
+              <option value="Russia"></option>
+              <option value="Mexico"></option>
+            </datalist>
+          </form>
+
+
+          <form action="#">
+            <input list="language-name" class="language-name-input-tag" placeholder="English">
+            <datalist id="language-name">
+                <option value="English"></option>
+                <option value="Hingi"></option>
+                <option value="Spanish"></option>
+                <option value="Russian"></option>
+            </datalist>
+
+          </form>
+        </div>
+      </div>
+
+
+      <div class="middle-footer">
+
+        <div class="about">
+          <h4>ABOUT ZOMATO</h4>
+          <a href="https://www.zomato.com/who-we-are" target="_blank">
+            <p>Who We Are</p>
+          </a>
+
+          <a href="https://www.zomato.com/careers" target="_blank">
+            <p>Work With Us</p>
+          </a>
+          <a href="https://www.zomato.com/investor-relations" target="_blank">
+            <p>Investor Relations</p>
+          </a>
+          <a href="https://www.zomato.com/report-fraud" target="_blank">
+            <p>Report Fraud</p>
+          </a>
+          <a href="https://blog.zomato.com/press-kit" target="_blank">
+            <p>Press Kit</p>
+          </a>
+          <a href="https://www.zomato.com/contact" target="_blank">
+            <p>Contact Us</p>
+          </a>
+          
+          
+        </div>
+        <div class="zomaverse">
+          <h4>ZOMAVERSE</h4>
+         
+          
+           <a href="https://www.zomato.com/" target="_blank">
+            <p>Zomato</p>
+          </a>
+           <a href="https://www.blinkit.com/" target="_blank">
+            <p>Blinkit</p>
+          </a>
+           <a href="https://www.feedingindia.org/" target="_blank">
+            <p>Feeding India</p>
+          </a>
+           <a href="https://www.hyperpure.com/" target="_blank">
+            <p>Hyperpure</p>
+          </a>
+           <a href="https://www.zomato.com/zomaland" target="_blank">
+            <p>Zomalands</p>
+          </a>
+           <a href="https://www.weatherunion.com/" target="_blank">
+            <p>Weather Union</p>
+          </a>
+          
+          
+        </div>
+        <div class="for-restaurants">
+          <h4>FOR RESTAURANTS</h4>
+
+          <a href="https://www.zomato.com/partner_with_us" target="_blank">
+            <p>Partner With Us</p>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.application.services.partner&hl=en_IN&gl=US" target="_blank">
+            <p>Apps For You</p>
+          </a>
+          
+          
+        </div>
+        <div class="Learn-more">
+          <h4>LEARN MORE</h4>
+
+          <a href="https://www.zomato.com/privacy" target="_blank">
+            <p>Privacy</p>
+          </a>
+
+          <a href="https://www.zomato.com/security" target="_blank">
+            <p>Security</p>
+          </a>
+
+          <a href="https://www.zomato.com/conditions" target="_blank">
+            <p>Terms</p>
+          </a>
+
+          <a href="https://www.zomato.com/directory" target="_blank">
+            <p>Sitemap</p>
+          </a>
+
+
+        
+        </div>
+        <div class="social-links">
+
+          <h4>SOCIAL LINKS</h4>
+          <div class="media-buttons">
+            <a href="https://in.linkedin.com/company/zomato" target="_blank">
+              <img src="images/linkedin.png" class="media-image"></a>
+
+
+           <a href="https://www.instagram.com/zomato/" target="_blank"><img src="images/insta.png" class="media-image" ></a>
+
+
+           <a href="https://twitter.com/zomato" target="_blank" > <img src="images/twitter.png"  class="media-image"></a>
+
+           <a href="https://www.youtube.com/channel/UCD7kbZQyYIR6RgJQYW9w0Tg" target="_blank"> <img src="images/youtube.png"  class="media-image"></a>
+          
+
+           <a href="https://www.facebook.com/zomato/" target="_blank">  <img src="images/facebook.png" class="media-image"></a>
+         
+
+          </div>
+
+          <div class="store-buttons">
+            <a href="https://link.zomato.com/xqzv/downloadZomatoIos" >
+              <img src="images/appstore.webp" class="playstore-btn-footer">
+            </a>
+           
+
+            <a href="https://link.zomato.com/xqzv/downloadZomatoAndroid"><img src="images/playstore.webp" class="appstore-btn-footer"></a>
+            
+
+          </div>
+
+          
+        </div>
+
+
+      </div>
+
+
+      <hr>
+    
+
+      <p class="last-statement">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. A;; trademarks are properties of their respective owners. 2008-2024 © Zomato Ltd. All rights reserved </p>
+    </div>
+  
+   
+     
+    
+
+
+
+  </div>
+
+
+
+  <script src="scripts/cityData.js" type="module">
+    
+
+  </script>
+<!-- 
+  <script src="scripts/area.js" type="module"></script> -->
+</body>
+</html>

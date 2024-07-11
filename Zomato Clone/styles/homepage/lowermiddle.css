@@ -1,0 +1,160 @@
+.lower-middle-section {
+  width: 75%;
+  position: relative;
+  left: 200px;
+  right: 200px;
+  margin-top: 90px;
+}
+
+
+.lms-title {
+  font-family: Arial;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(49, 48, 48);
+}
+
+.grid-localities{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 15px;
+  column-gap: 13px;
+  margin-top: 60px;
+  
+  
+
+}
+.city-localities{
+  position: relative;
+}
+
+
+
+.arrow-icon-image{
+  width: 15px;
+  position: absolute;
+  top: 27px;
+  right: 15px;
+  
+}
+
+
+.p1{
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(116, 113, 113);
+  letter-spacing: 1px;
+  margin-bottom:4px;
+}
+.p2{
+  font-family: Arial;
+  font-weight: 100;
+  
+  color: rgb(116, 113, 113);
+  
+}
+.city-localities {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid rgb(229, 229, 229);
+}
+
+/* Important points
+   dont use div on every element as it causes uncessary increasing div length , or improper arrangement of elements
+
+
+   second ,
+   whenever we center the div , 
+   here i am using 
+   -- width 75%
+   -- left 200px
+   -- right 200px
+
+
+   but when i try do write
+   -- width 75%
+   -- left 300px
+   -- right 300px
+
+   div cannot be centered like that 
+   as we set width to 75% of screen , then we cant position it by using any left and right px values , try reducing width % the position it according to requirement. */
+
+.main-div{
+  width: 60%;
+  position: relative;
+  left: 350px;
+  right: 300px;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+.mobile-image-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mobile-image{
+  width: 250px;
+}
+
+.Zomato-app{
+  font-family: Arial;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: rgb(86, 84, 84);
+}
+
+.zomato-para{
+  font-family: Arial;
+
+}
+
+.email-fetching-div{
+  line-height: 40px;
+  margin-bottom:30px ;
+}
+
+.email-input{
+  height: 40px;
+  padding-left: 10px;
+  font-size: 15px;  
+  width: 250px;
+  border-radius: 3px;
+  border: 1px gray solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Share{
+  color: white;
+  background-color: rgb(230, 58, 58);
+  border: none;
+  height: 43px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+ 
+}
+
+.download{
+  font-family: Arial;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.playstore-btn,.appstore-btn{
+  width: 130px;
+  height: 40px;
+  margin-right: 13px;
+}
+
+.label-email{
+  font-family: Arial;
+  color: rgb(101, 101, 101);
+}

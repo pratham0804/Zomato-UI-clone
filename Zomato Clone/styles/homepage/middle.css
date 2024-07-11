@@ -1,0 +1,41 @@
+.middle-page {
+  width: 75%;
+  position: relative;
+  left: 200px;
+  right: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+  
+  
+}
+.three-containers {
+  display: flex;
+  flex-direction: column;
+
+   
+}
+.first-image{
+   width: 360px;
+   height: 150px;
+   object-fit: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+.title-text {
+  font-family: Arial;
+  font-size: 18px;
+  color: rgb(57, 56, 56);
+  font-weight: 500;
+  margin-left: 15px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+.description {
+  font-family: Arial;
+  color: rgb(99, 99, 99);
+  font-size: 14px;
+  margin-left: 15px;
+  
+}

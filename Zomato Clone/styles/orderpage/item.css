@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.order-section{
+  width: 75%;
+  position: relative;
+  left: 12.5%;
+  right: 12.5%;
+}
+
+.order-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 45px;
+  margin-left: 8px;
+  row-gap: 50px;
+  
+}
+.order-title{
+  font-family: Inter;
+  color: rgb(40, 39, 39);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.order-div{
+  position: relative;
+}
+.order-image{
+  width: 320px;
+  height: 240px;
+  border-radius: 14px;
+  object-fit: cover;
+  
+  display: block;
+
+
+}
+
+.itemName{
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 2px;
+  
+}
+
+.price-and-time{
+  font-family: Inter;
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+  margin-top: -4px;
+  
+}
+.rating-span {
+  position: absolute;
+  right: 53px;
+  padding: 2px 6px;
+  background-color: #267E3E;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+
+
+}
+
+.time{
+  position: absolute;
+  right: 53px;
+  color: black;
+  font-weight: 400;
+}
+.order-image-div{
+  position: relative;
+}
+
+.offer-div{
+  background-color: #256FEF;
+  color: white;
+  position: absolute;
+  bottom: 11px;
+  left: 0;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+
+}

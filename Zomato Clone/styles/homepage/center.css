@@ -1,0 +1,56 @@
+.middle-page-part2{
+  width: 75%;
+  position: relative;
+  left: 200px;
+  right: 200px;
+  margin-top: 100px;
+  line-height: 35px;
+}
+
+.collections {
+  font-family: Arial;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(46, 45, 45);
+}
+
+.collection-desctription {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+  margin-bottom: 18px;
+}
+.collection-images {
+  width: 270px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.four-containers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.containers-1-image{
+  position: relative;
+}
+.collection-title{
+  font-family: Arial;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  position: absolute;
+  bottom: 35px;
+}
+
+.collection-subtitle {
+  font-family: Arial;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  position: absolute;
+  
+  bottom: 12px;
+}
+
